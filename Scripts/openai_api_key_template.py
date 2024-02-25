@@ -1,1 +1,1 @@
-OPENAI_API_KEY = 'Please include your openai api key here'
+openai_api_key = 'Please include your openai api key here'
