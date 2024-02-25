@@ -9,13 +9,7 @@ This chatbot serves as a tool for facilitating access to Australian diabetes man
 - Persistent storage for document processing
 - Customizable for non-profit use with a focus on diabetes management
 
-## Environment Setup
-
-### Prerequisites
-- Miniconda installed on your system
-
 ### Installation Steps
-
 1. Ensure Miniconda is installed and properly set up by running `conda --version`. If Miniconda is not installed, follow the installation guide available on the Miniconda website.
 2. conda env create -f diabetes_chatbot_env.yml
 3. conda activate diabetes_chatbot_env
@@ -23,7 +17,6 @@ This chatbot serves as a tool for facilitating access to Australian diabetes man
 5. stremlit run chatbot.py
 
 ## Application Structure: 
-
 - **Streamlit Interface**: Provides a user-friendly web interface for interacting with the chatbot.
 - **PDF Processing**: Utilizes the PyMuPDFLoader for loading and processing PDF documents.
 - **Text Splitting**: Employs the RecursiveCharacterTextSplitter for handling large documents by splitting them into manageable chunks.
@@ -32,5 +25,4 @@ This chatbot serves as a tool for facilitating access to Australian diabetes man
 - **Sample Questions**: Includes pre-defined samples related to diabetes management guidelines to demonstrate the chatbot's capabilities.
 
 ### Customizing the Chatbot
-
 The provided code snippets for handling sample questions and modifying responses can be tailored to fit specific requirements or to include additional educational content. Users are encouraged to explore the LangChain documentation for further customization options.
