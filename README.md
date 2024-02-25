@@ -13,8 +13,9 @@ This chatbot serves as a tool for facilitating access to Australian diabetes man
 1. Ensure Miniconda is installed and properly set up by running `conda --version`. If Miniconda is not installed, follow the installation guide available on the Miniconda website.
 2. conda env create -f diabetes_chatbot_env.yml
 3. conda activate diabetes_chatbot_env
-4. cd cd path/to/your/chatbot/Scripts
-5. stremlit run chatbot.py
+4. cd path/to/your/chatbot/Scripts
+5. Add your OpenAI API to openai_api_key.py
+6. stremlit run chatbot.py 
 
 ## Application Structure: 
 - **Streamlit Interface**: Provides a user-friendly web interface for interacting with the chatbot.
